@@ -1,5 +1,5 @@
 for i in range(1,10):
-  print("h")
+  print("hi")
 for j in range(2,8):
-  print("be")
+  print("bye")
 print("what")
