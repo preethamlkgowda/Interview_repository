@@ -11,7 +11,8 @@ def divide(a, b):
     if b != 0:
         return a / b
     return None
-
+def war(a,b):
+    return None
 def main():
     x = 10
     y = 5
