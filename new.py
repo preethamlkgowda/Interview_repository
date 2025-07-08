@@ -1,7 +1,23 @@
-from fpdf import FPDF
+def add(a, b):
+    return a + b
 
-pdf = FPDF()
-pdf.add_page()
-pdf.set_font("Arial", size=12)
-pdf.multi_cell(0, 10, "Your string goes here.")
-pdf.output("output.pdf")
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+
+def divide(a, b):
+    if b != 0:
+        return a / b
+    return None
+
+def main():
+    x = 10
+    y = 5
+    print(add(x, y))
+    print(subtract(x, y))
+    print(multiply(x, y))
+    print(divide(x, y))
+
+main()
